@@ -18,6 +18,10 @@ Project was created with technologies such as:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+https://bartek-kasprzyk.github.io/todo-list-react/
+
 ## Available Scripts
 
 In the project directory, you can run:
