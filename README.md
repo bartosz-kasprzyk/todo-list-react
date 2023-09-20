@@ -15,8 +15,8 @@ Project was created with technologies such as:
 * Flexbox
 * Grid
 * ES6+ features
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* React
+* Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
 
 ## Demo
 
