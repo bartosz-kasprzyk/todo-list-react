@@ -1,5 +1,4 @@
-import React from "react";
-import "./style.css"
+import "./style.css";
 
 const Buttons = ({ tasks, hideDoneTasks }) => (
     <span className="buttons">
