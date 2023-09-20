@@ -3,7 +3,7 @@
     box-shadow: 0px 0px 5px 2px #E2E2E2;
 }
 
-.section__bar {
+.section__header {
     display: grid;
     grid-template-columns: 1fr auto;
 }
@@ -14,7 +14,7 @@
     }
 }
 
-.section__header {
+.section__title {
     min-height: 40px;
     background-color: #fff;
     display: flex;
