@@ -34,4 +34,5 @@
 
 .buttons__button:disabled {
     color: #ccc;
+    transition: none;
 }
