@@ -41,6 +41,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 767px) {
+    .form__button {
+        flex-grow: 1;
+    }
+}
+
 .form__button:hover {
     background-color: #038b8b;
     transform: scale(1.1);
@@ -48,10 +54,4 @@
 
 .form__button:active {
     background-color: #06a1a1;
-}
-
-@media (max-width: 767px) {
-    .form__button {
-        flex-grow: 1;
-    }
 }

@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 767px) {
-    .section__bar {
+    .section__header {
         grid-template-columns: 1fr;
     }
 }
