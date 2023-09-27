@@ -54,7 +54,6 @@ function App() {
           title="Dodaj nowe zadanie"
           body={<Form addNewTask={addNewTask} />}
         />
-
         <Section
           title="Lista zadań"
           body={
