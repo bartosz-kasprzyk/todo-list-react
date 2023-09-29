@@ -1,5 +1,9 @@
 # To-do list
 
+## Demo
+
+https://bartek-kasprzyk.github.io/todo-list-react/
+
 ## Description
 
 This application is a simple to-do list maker. It allows you to list all of the things you need to do, mark them as done or even delete them if needed. It's pretty straight-forward, but here's a little taste of what it looks like:
@@ -17,10 +21,6 @@ Project was created with technologies such as:
 * ES6+ features
 * React
 * Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
-
-## Demo
-
-https://bartek-kasprzyk.github.io/todo-list-react/
 
 ## Available Scripts
 
