@@ -23,7 +23,6 @@ function App() {
       if (task.id === id) {
         return { ...task, done: !task.done };
       }
-
       return task;
     }));
   };
