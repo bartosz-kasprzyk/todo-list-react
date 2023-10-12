@@ -1,26 +1,28 @@
-import "./style.css";
+import { List, Item, Content, Button } from "./styled"
 
 const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
-    <ul className="tasks">
+    <List>
         {tasks.map(task => (
-            <li
-                className={`tasks__item ${task.done && hideDone ? "tasks__hidden" : ""}`} key={task.id}>
-                <button
-                className="tasks__button tasks__button--done"
-                onClick={() => toggleTaskDone(task.id)}>
-                    <i className={`${task.done ? "gg-check" : "tasks__button--disabled"}`}></i>
-                </button>
-                <span className={`tasks__content ${task.done ? "tasks__item--done" : ""}`}>
+            <Item
+                key={task.id}
+                hidden={task.done && hideDone}
+            >
+                <Button
+                    toggleDone
+                    onClick={() => toggleTaskDone(task.id)}>
+                    <i className={`${task.done ? "gg-check" : ""}`}></i>
+                </Button>
+                <Content done={task.done}>
                     {task.content}
-                </span>
-                <button
-                    className="tasks__button tasks__button--remove"
+                </Content>
+                <Button
+                    remove
                     onClick={() => removeTask(task.id)}>
                     <i className="gg-trash"></i>
-                </button>
-            </li>
+                </Button>
+            </Item>
         ))}
-    </ul >
+    </List >
 );
 
 export default Tasks;
