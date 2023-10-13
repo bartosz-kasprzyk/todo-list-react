@@ -15,7 +15,7 @@ export const Item = styled.li`
     border-bottom: 2px solid #ececec;
     align-items: center;
 
-    ${({ hidden }) => hidden && css`
+    ${({ $hidden }) => $hidden && css`
         display: none;
     `}
 `;
@@ -26,7 +26,7 @@ export const Content = styled.span`
     align-items: center;
     padding: 10px;
 
-    ${({ done }) => done && css`
+    ${({ $done }) => $done && css`
     text-decoration: line-through;
     `}
 `;
@@ -46,7 +46,7 @@ export const Button = styled.button`
         outline-color: #000;
     }
 
-    ${({ toggleDone }) => toggleDone && css`
+    ${({ $toggleDone }) => $toggleDone && css`
         background-color: #048004;
 
         &:hover {
@@ -58,7 +58,7 @@ export const Button = styled.button`
         }
     `}
 
-    ${({ remove }) => remove && css`
+    ${({ $remove }) => $remove && css`
         background-color: #ec1f30;
 
         &:hover {
