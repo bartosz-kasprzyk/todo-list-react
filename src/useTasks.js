@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 
+const localStorageTasksKey = "tasks";
+
 export const useTasks = () => {
-    const localStorageTasksKey = "tasks";
     const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem(localStorageTasksKey)) || []);
 
     useEffect(() => {
@@ -13,12 +14,9 @@ export const useTasks = () => {
     };
 
     const toggleTaskDone = (id) => {
-        setTasks(tasks => tasks.map(task => {
-            if (task.id === id) {
-                return { ...task, done: !task.done };
-            }
-            return task;
-        }));
+        setTasks(tasks => tasks.map(task => 
+            task.id === id ? { ...task, done: !task.done } : task)   
+        )
     };
 
     const setAllDone = () => {
