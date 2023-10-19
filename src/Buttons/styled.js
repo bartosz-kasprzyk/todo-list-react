@@ -18,17 +18,17 @@ export const ButtonSection = styled.div`
 export const Button = styled.button`
     background: none;
     border: none;
-    color: ${({theme}) => theme.colors.primaryColor.dark};
+    color: ${({theme}) => theme.colors.primaryColor};
     padding: 5px;
     cursor: pointer;
 
     &:hover {
-        color: ${({theme}) => theme.colors.primaryColor.medium};
+        filter: brightness(110%);
         transition: color 1s;
     }
 
     &:active {
-        color: ${({theme}) => theme.colors.primaryColor.light};
+        filter: brightness(120%);
     }
 
     &:disabled {

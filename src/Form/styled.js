@@ -19,7 +19,7 @@ export const NewTask = styled.input`
     flex-grow: 1;
     margin-right: 10px;
     padding: 10px;
-    border: 2px solid ${({theme}) => theme.colors.off-white};
+    border: 2px solid ${({theme}) => theme.colors.offwhite};
 
     @media (max-width: ${({theme}) => theme.breakpoints.mobile}) {
         margin-right: 0;
@@ -32,7 +32,7 @@ export const NewTask = styled.input`
 
 export const Button = styled.button`
     font-family: 'Lato', sans-serif;
-    background-color: ${({theme}) => theme.colors.primaryColor.dark};
+    background-color: ${({theme}) => theme.colors.primaryColor};
     color: ${({theme}) => theme.colors.white};
     border: none;
     transition: background-color 1s, transform 1s;
@@ -43,11 +43,11 @@ export const Button = styled.button`
     }
 
     &:hover {
-        background-color: ${({theme}) => theme.colors.primaryColor.medium};
+        filter: brightness(110%);
         transform: scale(1.1);
 
     &:active {
-        background-color: ${({theme}) => theme.colors.primaryColor.light};
+        filter: brightness(120%);
     }
 }
 `

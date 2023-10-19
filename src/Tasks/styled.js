@@ -12,7 +12,7 @@ export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
     padding: 10px;
-    border-bottom: 2px solid ${({ theme }) => theme.colors.off-white};
+    border-bottom: 2px solid ${({ theme }) => theme.colors.offwhite};
     align-items: center;
 
     ${({ $hidden }) => $hidden && css`
@@ -47,26 +47,26 @@ export const Button = styled.button`
     }
 
     ${({ $toggleDone }) => $toggleDone && css`
-        background-color: ${({ theme }) => theme.colors.green.dark};
+        background-color: ${({ theme }) => theme.colors.green};
 
         &:hover {
-            background-color: ${({ theme }) => theme.colors.green.medium};
+            filter: brightness(110%);
             transition: background-color 1s;
         }
         &:active {
-            background-color: ${({ theme }) => theme.colors.green.light};
+            filter: brightness(120%);
         }
     `}
 
     ${({ $remove }) => $remove && css`
-        background-color: ${({ theme }) => theme.colors.red.dark};
+        background-color: ${({ theme }) => theme.colors.red};
 
         &:hover {
-            background-color: ${({ theme }) => theme.colors.red.medium};
+            filter: brightness(110%);
             transition: background-color 1s;
         }
         &:active {
-            background-color: ${({ theme }) => theme.colors.red.light};
+            filter: brightness(120%);
         }
     `}
 `;
