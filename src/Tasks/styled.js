@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const List = styled.ul`
     min-height: 50px;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.colors.sectionBackgroundColor};
     margin-top: 3px;
     padding: 20px;
 `;
@@ -12,7 +12,7 @@ export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
     padding: 10px;
-    border-bottom: 2px solid #ececec;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.backgroundColor};
     align-items: center;
 
     ${({ $hidden }) => $hidden && css`
@@ -27,7 +27,7 @@ export const Content = styled.span`
     padding: 10px;
 
     ${({ $done }) => $done && css`
-    text-decoration: line-through;
+        text-decoration: line-through;
     `}
 `;
 
@@ -35,7 +35,7 @@ export const Button = styled.button`
     height: 31px;
     width: 31px;
     border: none;
-    color: #fff;
+    color: ${({ theme }) => theme.colors.sectionBackgroundColor};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,30 +43,30 @@ export const Button = styled.button`
 
     &:active {
         outline: auto;
-        outline-color: #000;
+        outline-color: ${({ theme }) => theme.colors.borderColor};
     }
 
     ${({ $toggleDone }) => $toggleDone && css`
-        background-color: #048004;
+        background-color: ${({ theme }) => theme.colors.checkColor.dark};
 
         &:hover {
-            background-color: #0b9b0b;
+            background-color: ${({ theme }) => theme.colors.checkColor.medium};
             transition: background-color 1s;
         }
         &:active {
-            background-color: #0da50d;
+            background-color: ${({ theme }) => theme.colors.checkColor.light};
         }
     `}
 
     ${({ $remove }) => $remove && css`
-        background-color: #ec1f30;
+        background-color: ${({ theme }) => theme.colors.removeColor.dark};
 
         &:hover {
-            background-color: #f84150;
+            background-color: ${({ theme }) => theme.colors.removeColor.medium};
             transition: background-color 1s;
         }
         &:active {
-            background-color: #ff4f5d;
+            background-color: ${({ theme }) => theme.colors.removeColor.light};
         }
     `}
 `;

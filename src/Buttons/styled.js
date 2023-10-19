@@ -5,9 +5,9 @@ export const ButtonSection = styled.div`
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     align-items: center;
-    background-color: #fff;
+    background-color: ${({theme}) => theme.colors.sectionBackgroundColor};
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({theme}) => theme.breakpoints.mobile}) {
         grid-template-columns: 1fr;
         grid-gap: 10px;
         padding-top: 0;
@@ -18,21 +18,21 @@ export const ButtonSection = styled.div`
 export const Button = styled.button`
     background: none;
     border: none;
-    color: #008080;
+    color: ${({theme}) => theme.colors.primaryColor.dark};
     padding: 5px;
     cursor: pointer;
 
     &:hover {
-        color: #09a5a5;
+        color: ${({theme}) => theme.colors.primaryColor.medium};
         transition: color 1s;
     }
 
     &:active {
-        color: #0ac2c2;
+        color: ${({theme}) => theme.colors.primaryColor.light};
     }
 
     &:disabled {
-        color: #ccc;
+        color: ${({theme}) => theme.colors.disabledColor};
         transition: none;
     }
 `
