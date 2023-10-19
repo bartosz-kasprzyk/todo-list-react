@@ -5,7 +5,7 @@ export const ButtonSection = styled.div`
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     align-items: center;
-    background-color: ${({theme}) => theme.colors.sectionBackgroundColor};
+    background-color: ${({theme}) => theme.colors.white};
 
     @media (max-width: ${({theme}) => theme.breakpoints.mobile}) {
         grid-template-columns: 1fr;
@@ -32,7 +32,7 @@ export const Button = styled.button`
     }
 
     &:disabled {
-        color: ${({theme}) => theme.colors.disabledColor};
+        color: ${({theme}) => theme.colors.gray};
         transition: none;
     }
 `

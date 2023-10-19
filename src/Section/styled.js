@@ -16,7 +16,7 @@ export const Header = styled.header`
 
 export const Title = styled.h2`
     min-height: 40px;
-    background-color: ${({theme}) => theme.colors.sectionBackgroundColor};
+    background-color: ${({theme}) => theme.colors.white};
     display: flex;
     padding: 20px;
     margin: 0;
