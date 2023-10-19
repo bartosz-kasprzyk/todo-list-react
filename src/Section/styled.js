@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Segment = styled.section`
     margin-bottom: 10px;
-    box-shadow: 0px 0px 5px 2px hsl(0, 0%, 89%);
+    box-shadow: 0px 0px 5px 2px ${({theme}) => theme.colors.shadow};
 `;
 
 export const Header = styled.header`
