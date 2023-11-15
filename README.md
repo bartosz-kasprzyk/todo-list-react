@@ -23,6 +23,7 @@ Project was created with technologies such as:
 * Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
 * Custom hooks
 * Styled components
+* Redux
 
 ## Available Scripts
 
