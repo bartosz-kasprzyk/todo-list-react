@@ -7,7 +7,7 @@ import {
     toggleHideDone,
     setAllDone,
     fetchExampleTasks,
-} from "../tasksSlice"
+} from "../../tasksSlice"
 
 const Buttons = () => {
     const hideDone = useSelector(selectHideDone);

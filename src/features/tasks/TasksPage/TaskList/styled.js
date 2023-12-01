@@ -2,9 +2,7 @@ import styled, { css } from "styled-components";
 
 export const List = styled.ul`
     min-height: 50px;
-    background-color: ${({ theme }) => theme.colors.white};
-    margin-top: 3px;
-    padding: 20px;
+    margin: 0 0 0 -30px;
 `;
 
 export const Item = styled.li`
