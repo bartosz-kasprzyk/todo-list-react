@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
@@ -28,6 +29,12 @@ export const Content = styled.span`
         text-decoration: line-through;
     `}
 `;
+
+export const StyledLink = styled(Link)`
+    color: ${({ theme }) => theme.colors.primaryColor};
+    text-decoration: none;
+`;
+
 
 export const Button = styled.button`
     height: 31px;
