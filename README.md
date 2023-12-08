@@ -6,7 +6,7 @@ https://bartek-kasprzyk.github.io/todo-list-react/
 
 ## Description
 
-This application is a simple to-do list maker. It allows you to list all of the things you need to do, mark them as done or even delete them if needed. It's pretty straight-forward, but here's a little taste of what it looks like:
+This application is a simple to-do list maker. It allows you to list all of the things you need to do, mark them as done, hide already done tasks or even delete them if needed. We've just added a search bar and a button to download example tasks. Here's a little taste of what it looks like:
 
 ![preview](/public/to-do-list.gif)
 
@@ -19,11 +19,12 @@ Project was created with technologies such as:
 * Flexbox
 * Grid
 * ES6+ features
-* React
 * Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
 * Custom hooks
 * Styled components
-* Redux
+* React-Redux
+* Redux-Saga
+* React-Router
 
 ## Available Scripts
 
