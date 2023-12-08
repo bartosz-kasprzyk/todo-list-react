@@ -19,13 +19,11 @@ Project was created with technologies such as:
 * Flexbox
 * Grid
 * ES6+ features
-* React
 * Create React App (Webpack, Babel, ESLint, PostCSS, CSS Loader & Style Loader)
 * Custom hooks
 * Styled components
 * React-Redux
 * Redux-Saga
-* Redux-toolkit
 * React-Router
 
 ## Available Scripts
