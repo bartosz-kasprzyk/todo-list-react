@@ -8,7 +8,7 @@ export default () => (
         <Section
             title="Bartosz Kasprzyk"
             body={
-                <>nana</>
+                <>Magister matematyki stosowanej, absolwent szkoły muzycznej oraz przyszły front-end developer. <br />Udzielam korepetycji z matematyki, uczę się programowania, a w wolnym czasie gram w gry 🎮 </>
             }
         />
     </Container >
