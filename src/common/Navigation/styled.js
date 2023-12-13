@@ -23,7 +23,7 @@ export const StyledNavLink = styled(NavLink)`
         transform: scale(1.02);
     }
 
-    &:active {
+    &.active {
         font-weight: 800;
     }
 `;
