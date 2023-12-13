@@ -16,8 +16,14 @@ export const StyledNavLink = styled(NavLink)`
     text-decoration: none;
     float: left;
     padding: 5px 20px;
+    transition: color 0.5s, transform 1s;
     
-    &.active {
-        font-weight: 700;
+    &:hover {
+        color: ${({ theme }) => theme.colors.lavender};
+        transform: scale(1.02);
+    }
+
+    &:active {
+        font-weight: 800;
     }
 `;

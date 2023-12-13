@@ -33,6 +33,15 @@ export const Content = styled.span`
 export const StyledLink = styled(Link)`
     color: ${({ theme }) => theme.colors.primaryColor};
     text-decoration: none;
+    
+    &:hover {
+        filter: brightness(110%);
+        transition: color 1s;
+    }
+
+    &:active {
+        filter: brightness(120%);
+    }
 `;
 
 
