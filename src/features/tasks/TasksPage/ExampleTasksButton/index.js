@@ -8,13 +8,14 @@ const ExampleTasksButton = () => {
     const dispatch = useDispatch();
     return (
         <Button onClick={() => dispatch(fetchExampleTasks())}>
-            {isLoading === true ? (
-                <Loading>
-                    Ładowanie...
-                </Loading>
-            )
-                : (
-                    "Pobierz przykładowe zadania")}
+            {isLoading === true
+                ? (
+                    <Loading>
+                        Ładowanie...
+                    </Loading>
+                )
+                : "Pobierz przykładowe zadania"
+            }
         </Button>
     )
 };

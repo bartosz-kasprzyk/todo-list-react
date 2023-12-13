@@ -33,7 +33,7 @@ const TaskList = () => {
                     </Button>
                 </Item>
             ))}
-        </List >
+        </List>
     )
 };
 
