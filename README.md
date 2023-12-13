@@ -24,6 +24,7 @@ Project was created with technologies such as:
 * Styled components
 * React-Redux
 * Redux-Saga
+* Redux-toolkit
 * React-Router
 
 ## Available Scripts
