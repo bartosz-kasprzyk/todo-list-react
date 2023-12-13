@@ -7,6 +7,7 @@ export const theme = {
         green: "hsl(120, 94%, 26%)",
         red: "hsl(355, 84%, 52%)",
         black: "hsl(0, 0%, 0%)",
+        lavender: "hsl(300, 17%, 80%)",
         shadow: "hsl(0, 0%, 89%)",
     },
     breakpoints: {
