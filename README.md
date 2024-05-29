@@ -2,7 +2,7 @@
 
 ## Demo
 
-https://bartek-kasprzyk.github.io/todo-list-react/
+https://bartosz-kasprzyk.github.io/todo-list-react/
 
 ## Description
 
