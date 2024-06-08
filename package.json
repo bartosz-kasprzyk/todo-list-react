@@ -2,7 +2,7 @@
   "name": "todo-list-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartek-kasprzyk.github.io/todo-list-react/",
+  "homepage": "https://bartosz-kasprzyk.github.io/todo-list-react/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
