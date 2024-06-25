@@ -1,4 +1,4 @@
-# To-do list
+# <img width="25px" src="/public/icon.png" /> To-do list
 
 ## Demo
 
