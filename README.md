@@ -6,7 +6,7 @@ https://bartosz-kasprzyk.github.io/todo-list-react/
 
 ## Description
 
-This application is a simple to-do list maker. It allows you to list all of the things you need to do, mark them as done, hide already done tasks or even delete them if needed. You can filter your tasks using a search bar right over the task list. Thanks to the async function you can also download example tasks. Here's a little taste of what it looks like:
+This to-do list maker allows you to list all of the things you need to do, mark them as done, hide already done tasks or even delete them if needed. You can filter your tasks using a search bar right over the task list. Thanks to the async function you can also download example tasks. Here's a little taste of what it looks like:
 
 ![preview](/public/to-do-list.gif)
 
