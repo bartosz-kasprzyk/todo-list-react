@@ -10,7 +10,7 @@ export const AuthorPage = () => (
             body={
                 <>
                     Bartek, 25 lat. Magister matematyki 👨‍🎓, absolwent szkoły muzycznej 🎼 oraz przyszły front-end developer 👨‍💻 <br />
-                    Na codzień udzielam korepetycji z matematyki, uczę się programowania, a w wolnym czasie gram w gry oraz rysuję na tablecie 🎮🎨
+                    Na co dzień udzielam korepetycji z matematyki, uczę się programowania, a w wolnym czasie gram w gry oraz rysuję na tablecie 🎮🎨
                 </>
             }
         />
