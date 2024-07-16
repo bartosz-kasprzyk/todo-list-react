@@ -9,8 +9,8 @@ export const AuthorPage = () => (
             title="Bartosz Kasprzyk"
             body={
                 <>
-                    Magister matematyki stosowanej, absolwent szkoły muzycznej oraz przyszły front-end developer. <br />
-                    Udzielam korepetycji z matematyki, uczę się programowania, a w wolnym czasie gram w gry 🎮
+                    Bartek, 25 lat. Magister matematyki 👨‍🎓, absolwent szkoły muzycznej 🎼 oraz przyszły front-end developer 👨‍💻 <br />
+                    Na codzień udzielam korepetycji z matematyki, uczę się programowania, a w wolnym czasie gram w gry oraz rysuję na tablecie 🎮🎨
                 </>
             }
         />
