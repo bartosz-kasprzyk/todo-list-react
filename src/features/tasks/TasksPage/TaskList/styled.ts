@@ -6,7 +6,7 @@ export const List = styled.ul`
     margin: 0 0 0 -30px;
 `;
 
-export const Item = styled.li`
+export const Item = styled.li<{ $hidden?: boolean }>`
     list-style: none;
     display: grid;
     grid-template-columns: auto 1fr auto;
@@ -19,7 +19,7 @@ export const Item = styled.li`
     `}
 `;
 
-export const Content = styled.span`
+export const Content = styled.span<{ $done?: boolean }>`
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -45,7 +45,7 @@ export const StyledLink = styled(Link)`
 `;
 
 
-export const Button = styled.button`
+export const Button = styled.button<{ $toggleDone?: boolean; $remove?: boolean }>`
     height: 31px;
     width: 31px;
     border: none;

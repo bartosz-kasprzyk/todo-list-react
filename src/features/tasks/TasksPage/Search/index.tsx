@@ -1,15 +1,14 @@
 import Input from "../../Input";
 import { Wrapper } from "./styled";
-import searchQueryParamName from "../searchQueryParamName";
 import { useQueryParameter, useReplaceQueryParameter } from "../queryParameters";
 
 const Search = () => {
-    const query = useQueryParameter(searchQueryParamName);
+    const query = useQueryParameter("szukaj");
     const replaceQueryParameter = useReplaceQueryParameter();
 
-    const onInputChange = ({ target }) => {
+    const onInputChange: React.ChangeEventHandler<HTMLInputElement> = ({ target }) => {
         replaceQueryParameter({
-            key: searchQueryParamName,
+            key: "szukaj",
             value: target.value.trim() !== "" ? target.value : undefined,
         });
     };

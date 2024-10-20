@@ -5,6 +5,7 @@ import { Navigation } from "./common/Navigation";
 import { AuthorPage } from "./features/AuthorPage";
 
 export const App = () => (
+
     <HashRouter>
         <Navigation />
         <Switch>

@@ -1,10 +1,10 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useAppDispatch, useAppSelector } from "../../../../hooks";
 import { fetchExampleTasks, selectLoading } from "../../tasksSlice"
 import { Button } from "../../Button";
 
 const ExampleTasksButton = () => {
-    const loading = useSelector(selectLoading);
-    const dispatch = useDispatch();
+    const loading = useAppSelector(selectLoading);
+    const dispatch = useAppDispatch();
     return (
         <Button disabled={loading} onClick={() => dispatch(fetchExampleTasks())}>
             {
