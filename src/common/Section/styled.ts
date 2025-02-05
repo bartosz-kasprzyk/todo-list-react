@@ -22,7 +22,7 @@ export const Title = styled.h2`
     margin: 0;
 `;
 
-export const Body = styled.section`
+export const Body = styled.div`
     background-color: ${({ theme }) => theme.colors.white};
     padding: 20px;
     margin-top: 3px;
