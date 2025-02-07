@@ -1,9 +1,9 @@
 import React from "react";
-import { AuthorPage } from "../../src/features/AuthorPage";
+import { AuthorPage } from "../../../src/features/AuthorPage";
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { ThemeProvider } from "styled-components";
-import { theme } from "../../src/theme";
+import { theme } from "../../../src/theme";
 
 describe("AuthorPage", () => {
   it("should render Header and Section with correct content", () => {
